@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Easter Invaders</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+
+    <div id="hud">
+      <span>Score : <span id="score">0</span></span>
+      <span>Vies : <span id="lives">❤️❤️❤️</span></span>
+      <span>Niveau : <span id="level">1</span></span>
+    </div>
+
+    <div id="legend">
+      <span>🥚 100pts</span>
+      <span>🔔 200pts</span>
+      <span>🐔 300pts</span>
+      <span>🥕 +1 vie</span>
+      <span>🍄 -1 vie</span>
+    </div>
+
+    <div id="canvas-wrap">
+      <canvas id="gameCanvas" width="1000" height="750"></canvas>
+
+      <div id="name-overlay">
+        <h2 id="overlay-title">🏆 Inscris ton nom !</h2>
+        <p id="overlay-msg">Entre ton pseudo pour le classement</p>
+        <input id="name-input" type="text" maxlength="16" placeholder="Ton pseudo..." autocomplete="off">
+        <button id="name-confirm-btn">Valider</button>
+      </div>
+
+      <div id="rules-overlay">
+        <h2>🐰 Sauve Maman Lapine !!</h2>
+        <div class="rules-section">
+          <h3>🎮 Contrôles</h3>
+          <div class="rules-row">
+            <span>⌨️ Clavier</span>
+            <span>← → pour bouger &nbsp;|&nbsp; Espace ou ↑ pour tirer</span>
+          </div>
+          <div class="rules-row">
+            <span>🖱️ Souris</span>
+            <span>Déplacer pour bouger &nbsp;|&nbsp; Clic gauche pour tirer</span>
+          </div>
+<div class="rules-row">
+  <span>📱 Mobile</span>
+  <span>Glisse le doigt pour bouger &nbsp;|&nbsp; Toucher l'écran pour tirer en continu</span>
+</div>
+        </div>
+        <div class="rules-section">
+          <h3>👾 Ennemis</h3>
+          <div class="rules-enemies">
+            <div class="rules-enemy">
+              <img src="soldatoeuf.png" alt="oeuf">
+              <span class="pts egg-pts">100 pts</span>
+            </div>
+            <div class="rules-enemy">
+              <img src="soldatcloche.png" alt="cloche">
+              <span class="pts bell-pts">200 pts</span>
+            </div>
+            <div class="rules-enemy">
+              <img src="soldatpoulet.png" alt="poulet">
+              <span class="pts chicken-pts">300 pts</span>
+            </div>
+          </div>
+        </div>
+        <div class="rules-section">
+          <h3>⚡ Bonus & Malus</h3>
+          <div class="rules-enemies">
+            <div class="rules-enemy">
+              <img src="carotte.png" alt="carotte">
+              <span class="pts carrot-pts">+1 vie 🥕</span>
+            </div>
+            <div class="rules-enemy">
+              <img src="champignon.png" alt="champignon">
+              <span class="pts mush-pts">-1 vie 🍄</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="mobile-controls">
+      <button id="btn-left">◀</button>
+      <button id="btn-right">▶</button>
+    </div>
+
+    <div id="message">Clavier : ← → + Espace &nbsp;|&nbsp; Souris : déplacer + clic gauche pour tirer</div>
+
+    <div id="btn-area">
+      <button id="start-btn">Démarrer</button>
+      <button class="gbtn" id="next-btn">🐣 Niveau suivant</button>
+      <button class="gbtn" id="replay-btn">🐰 Rejouer</button>
+    </div>
+
+    <div id="story-controls" style="display:none; gap:12px; margin-top:0.75rem;">
+      <button id="story-next-btn">Suivant ▶</button>
+      <button id="story-skip-btn">Passer le scénario ⏭</button>
+    </div>
+
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
