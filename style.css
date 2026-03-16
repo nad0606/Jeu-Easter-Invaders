@@ -174,7 +174,32 @@ body {
   #mobile-controls {
     display: flex;
   }
+
+  #gameCanvas {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  #game-container {
+    padding: 0;
+    gap: 0.25rem;
+  }
+
+  body {
+    padding: 0.25rem;
+  }
+
+  #hud {
+    font-size: 12px;
+    gap: 1rem;
+  }
+
+  #legend {
+    font-size: 10px;
+    gap: 0.5rem;
+  }
 }
+
 
 #story-next-btn, #story-skip-btn {
   padding: 10px 24px;
