@@ -546,27 +546,27 @@ const storyImages = {};
 });
 
 const storyScenes = [
-  { image: 'lapinfamille',       speaker: 'Narration',        text: "Il était une fois, dans une clairière enchantée parsemée de fleurs colorées et d'arbres majestueux, une famille de lapins qui coulait des jours heureux." },
-  { image: 'lapinfamille',       speaker: 'Papa Lapin',        text: "Regardez notre belle clairière, mes enfants ! Est-ce que ce n'est pas le plus beau endroit du monde pour jouer et être heureux ?" },
+  { image: 'lapinfamille',       speaker: 'Narration',        text: "Il était une fois, dans une clairière enchantée parsemée de fleurs colorées et d'arbres majestueux,\n une famille de lapins qui coulait des jours heureux." },
+  { image: 'lapinfamille',       speaker: 'Papa Lapin',        text: "Regardez notre belle clairière, mes enfants ! \nEst-ce que ce n'est pas le plus beau endroit du monde pour jouer et être heureux ?" },
   { image: 'lapinfamille',       speaker: 'Petit Lapereau',    text: "Oui, Papa Lapin ! C'est le paradis !" },
-  { image: 'lapinkidnapping',    speaker: 'Monsieur Poulet',   text: "Eh bien, eh bien, eh bien ! Quel spectacle ! Une famille de lapins heureuse dans leur belle clairière !" },
+  { image: 'lapinkidnapping',    speaker: 'Monsieur Poulet',   text: "Eh bien, eh bien, eh bien ! Quel spectacle ! \nUne famille de lapins heureuse dans leur belle clairière !" },
   { image: 'lapinkidnapping',    speaker: 'Maman Lapine',      text: "Papa Lapin, aide-moi !" },
   { image: 'lapinkidnapping',    speaker: 'Papa Lapin',        text: "Laissez Maman Lapine tranquille !" },
   { image: 'lapinkidnapping',    speaker: 'Monsieur Poulet',   text: "Oh, vous pensez que vous pouvez m'arrêter ?" },
   { image: 'lapinkidnapping',    speaker: 'Papa Lapin',        text: "Je vais vous retrouver ! Et je vais sauver Maman Lapine !" },
   { image: 'lapinlapinedebutjeu',speaker: 'Papa Lapin',        text: "Maman Lapine ! Je ne peux pas te laisser seule face à ce monstre !" },
-  { image: 'lapinlapinedebutjeu',speaker: 'Maman Lapine',      text: "Tu le dois. Pour nos petits. Promets-moi de rester toi-même, de rester fort. Ne change pas pour ce monstre, ne deviens pas comme lui, plein de haine." },
+  { image: 'lapinlapinedebutjeu',speaker: 'Maman Lapine',      text: "Tu le dois. Pour nos petits. \nPromets-moi de rester toi-même, de rester fort !" },
 ];
 
 const midStoryScenes = [
   { image: 'lapinapinecalin2',  speaker: 'Papa Lapin',   text: "Maman Lapine ! Je t'ai trouvée !" },
-  { image: 'lapinapinecalin2',  speaker: 'Maman Lapine', text: "Papa Lapin... C'est vraiment toi ? Tu es venu... après tout ce chemin ?" },
+  { image: 'lapinapinecalin2',  speaker: 'Maman Lapine', text: "Papa Lapin... C'est vraiment toi ? \nTu es venu... après tout ce chemin ?" },
   { image: 'lapinapinecalin2',  speaker: 'Papa Lapin',   text: "Je ne t'aurais jamais laissée ici." },
-  { image: 'lapinlapinepeur2',   speaker: 'Maman Lapine', text: "Nos bébés... Il est revenu chercher nos bébés pendant que tu risquais ta vie pour moi ? Oh non !" },
-  { image: 'lapinlapinepeur2',   speaker: 'Papa Lapin',   text: "Il ne veut pas juste nous faire du mal, il veut nous détruire !" },
-  { image: '3lapinspeur',        speaker: 'Monsieur Poulet', text: "Alors, mes petits lapereaux... papa et maman sont partis vous chercher ?" },
-  { image: '3lapinspeur',        speaker: 'Lapereau 1',   text: "Laissez-nous tranquilles, Monsieur Poulet ! Papa va venir, et il sera très en colère !" },
-  { image: '3lapinspeur',        speaker: 'Lapereau 2',   text: "J'ai froid... et cet endroit fait un bruit bizarre. Je veux retourner dans la clairière avec Maman !" },
+  { image: 'lapinlapinepeur2',   speaker: 'Maman Lapine', text: "Nos bébés... \nIl est revenu chercher nos bébés pendant que tu risquais ta vie pour moi ? \nOh non !" },
+  { image: 'lapinlapinepeur2',   speaker: 'Papa Lapin',   text: "Il ne veut pas juste nous faire du mal, IL VEUT NOUS DETRUIRE !" },
+  { image: '3lapinspeur',        speaker: 'Monsieur Poulet', text: "Alors, mes petits lapereaux... \npapa et maman sont partis vous chercher ?" },
+  { image: '3lapinspeur',        speaker: 'Lapereau 1',   text: "Laissez-nous tranquilles, Monsieur POULET ! \nPapa va venir, et il sera très en colère !" },
+  { image: '3lapinspeur',        speaker: 'Lapereau 2',   text: "J'ai froid... et cet endroit fait un bruit bizarre. \nJe veux retourner dans la clairière avec Maman !" },
 ];
 let midStoryIndex = 0;
 
